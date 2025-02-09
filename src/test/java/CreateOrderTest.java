@@ -10,14 +10,14 @@ import ru.praktikum.services.qa.scooter.client.ScooterServiceClient;
 import ru.praktikum.services.qa.scooter.model.Order;
 import ru.praktikum.services.qa.scooter.model.TrackOrder;
 import java.util.List;
-
+import static org.apache.http.HttpStatus.*;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.notNullValue;
+import static ru.praktikum.services.qa.scooter.constant.Url.BASE_URI;
 
 
 @RunWith(Parameterized.class)
 public class CreateOrderTest {
-    private static final String BASE_URI = "https://qa-scooter.praktikum-services.ru/";
     private ScooterServiceClient client;
     private ValidatableResponse response;
 
@@ -59,17 +59,18 @@ public class CreateOrderTest {
     }
 
     @Test
-    @DisplayName("Проверка поля color")
+    @DisplayName("Проверка цвета самоката")
+    @Description("Тест проверяет, что заказ создается при разных значениях поля color")
     public void testFieldColor(){
         Order order = new Order(firstName,lastName, address, metroStation, phone, rentTime, deliveryDate, comment, color);
         response = client.createOrders(order);
-        response.assertThat().body("track", notNullValue()).statusCode(201);
+        response.assertThat().statusCode(SC_CREATED).body("track", notNullValue());
     }
 
     @After
     public void after() {
         int track = response.extract().as(TrackOrder.class).getTrack();
         ValidatableResponse cancel = client.cancelOrder(track);
-        cancel.assertThat().body("ok", equalTo(true)).statusCode(200);
+        cancel.assertThat().statusCode(SC_OK).body("ok", equalTo(true));
     }
 }

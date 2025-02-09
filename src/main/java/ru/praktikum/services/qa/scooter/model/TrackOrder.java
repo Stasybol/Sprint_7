@@ -1,5 +1,6 @@
 package ru.praktikum.services.qa.scooter.model;
 
+
 public class TrackOrder {
     private int track;
 

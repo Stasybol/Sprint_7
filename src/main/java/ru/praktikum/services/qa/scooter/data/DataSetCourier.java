@@ -1,7 +1,9 @@
 package ru.praktikum.services.qa.scooter.data;
 
+
 import ru.praktikum.services.qa.scooter.model.Courier;
 import java.util.Random;
+
 
 public class DataSetCourier {
     private static String[] logins = new String[] { "Ellen1", "Ellen4", "Ellen7", "Ellen10", "Ellen13", "Ellen16", "Ellen19", "Ellen22", "Ellen25", "Ellen28" };

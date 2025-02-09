@@ -1,5 +1,6 @@
 package ru.praktikum.services.qa.scooter.client;
 
+
 import static io.restassured.RestAssured.given;
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
@@ -8,8 +9,7 @@ import ru.praktikum.services.qa.scooter.model.Credentials;
 import ru.praktikum.services.qa.scooter.model.Order;
 
 public class ScooterServiceClient {
-
-    private String baseURI;
+    private final String baseURI;
 
     public ScooterServiceClient(String baseURI) {
         this.baseURI = baseURI;
