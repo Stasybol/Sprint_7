@@ -1,0 +1,216 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "CreateCourierTest",
+    "children" : [ {
+      "name" : "Создание курьера при заполнении логина и пароля",
+      "uid" : "a239676f2423f61e",
+      "parentUid" : "1dc0e94a33f3efc71cf1fe6720ef6e53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102640771,
+        "stop" : 1739102645312,
+        "duration" : 4541
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Ошибка при создании курьера без логина",
+      "uid" : "3fd786e436ef5e93",
+      "parentUid" : "1dc0e94a33f3efc71cf1fe6720ef6e53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102645373,
+        "stop" : 1739102645744,
+        "duration" : 371
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Ошибка при создании курьера без пароля",
+      "uid" : "bd718d0e7a4c03b7",
+      "parentUid" : "1dc0e94a33f3efc71cf1fe6720ef6e53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102645754,
+        "stop" : 1739102646065,
+        "duration" : 311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание курьера при заполнении всех полей",
+      "uid" : "9a0f7170e0092049",
+      "parentUid" : "1dc0e94a33f3efc71cf1fe6720ef6e53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102646068,
+        "stop" : 1739102646666,
+        "duration" : 598
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Ошибка при создании двух одинаковых курьера",
+      "uid" : "2e35bffb0c75bec5",
+      "parentUid" : "1dc0e94a33f3efc71cf1fe6720ef6e53",
+      "status" : "failed",
+      "time" : {
+        "start" : 1739102646669,
+        "stop" : 1739102647481,
+        "duration" : 812
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1dc0e94a33f3efc71cf1fe6720ef6e53"
+  }, {
+    "name" : "CreateOrderTest",
+    "children" : [ {
+      "name" : "Проверка цвета самоката",
+      "uid" : "9fe7632a4bdad443",
+      "parentUid" : "51011514d8c1c3e3bec921a2c8a1c1a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102647509,
+        "stop" : 1739102647930,
+        "duration" : 421
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка цвета самоката",
+      "uid" : "85baf49b0577a4ed",
+      "parentUid" : "51011514d8c1c3e3bec921a2c8a1c1a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102647936,
+        "stop" : 1739102648318,
+        "duration" : 382
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка цвета самоката",
+      "uid" : "c2668084fc3bf367",
+      "parentUid" : "51011514d8c1c3e3bec921a2c8a1c1a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102648321,
+        "stop" : 1739102648736,
+        "duration" : 415
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка цвета самоката",
+      "uid" : "5569fe1f748f263b",
+      "parentUid" : "51011514d8c1c3e3bec921a2c8a1c1a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102648740,
+        "stop" : 1739102649158,
+        "duration" : 418
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "51011514d8c1c3e3bec921a2c8a1c1a7"
+  }, {
+    "name" : "GetOrdersTest",
+    "children" : [ {
+      "name" : "Получение списка заказов",
+      "uid" : "b450a55d7605218e",
+      "parentUid" : "9c27ef9acd77ec3778a17637cae5e9e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102649163,
+        "stop" : 1739102649848,
+        "duration" : 685
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9c27ef9acd77ec3778a17637cae5e9e3"
+  }, {
+    "name" : "LoginCourierTest",
+    "children" : [ {
+      "name" : "Успешная авторизация курьера при вводе валидных логина и пароля",
+      "uid" : "f0cdec019fef5da1",
+      "parentUid" : "add15fd69964ca7a4cdcaf1c76e70e12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102649854,
+        "stop" : 1739102650530,
+        "duration" : 676
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Ошибка авторизации курьера при вводе без поля логина",
+      "uid" : "1514e8a51e96fa1c",
+      "parentUid" : "add15fd69964ca7a4cdcaf1c76e70e12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102650533,
+        "stop" : 1739102651253,
+        "duration" : 720
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Ошибка авторизации курьера при вводе НЕвалидного логина",
+      "uid" : "5d03f2dcdfcc3c74",
+      "parentUid" : "add15fd69964ca7a4cdcaf1c76e70e12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102651256,
+        "stop" : 1739102651926,
+        "duration" : 670
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Ошибка авторизации курьера при вводе без поля пароль",
+      "uid" : "37f71871867da56d",
+      "parentUid" : "add15fd69964ca7a4cdcaf1c76e70e12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102651928,
+        "stop" : 1739102652915,
+        "duration" : 987
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Ошибка авторизации курьера при вводе НЕвалидного пароля",
+      "uid" : "25748810624c897b",
+      "parentUid" : "add15fd69964ca7a4cdcaf1c76e70e12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102652925,
+        "stop" : 1739102653718,
+        "duration" : 793
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "add15fd69964ca7a4cdcaf1c76e70e12"
+  } ]
+}

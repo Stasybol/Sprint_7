@@ -1,0 +1,200 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Создание курьера при заполнении логина и пароля",
+    "uid" : "a239676f2423f61e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1739102640771,
+      "stop" : 1739102645312,
+      "duration" : 4541
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Ошибка при создании курьера без логина",
+    "uid" : "3fd786e436ef5e93",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1739102645373,
+      "stop" : 1739102645744,
+      "duration" : 371
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Ошибка при создании курьера без пароля",
+    "uid" : "bd718d0e7a4c03b7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1739102645754,
+      "stop" : 1739102646065,
+      "duration" : 311
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Создание курьера при заполнении всех полей",
+    "uid" : "9a0f7170e0092049",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1739102646068,
+      "stop" : 1739102646666,
+      "duration" : 598
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Ошибка при создании двух одинаковых курьера",
+    "uid" : "2e35bffb0c75bec5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1739102646669,
+      "stop" : 1739102647481,
+      "duration" : 812
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Проверка цвета самоката",
+    "uid" : "9fe7632a4bdad443",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1739102647509,
+      "stop" : 1739102647930,
+      "duration" : 421
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Проверка цвета самоката",
+    "uid" : "85baf49b0577a4ed",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1739102647936,
+      "stop" : 1739102648318,
+      "duration" : 382
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Проверка цвета самоката",
+    "uid" : "c2668084fc3bf367",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1739102648321,
+      "stop" : 1739102648736,
+      "duration" : 415
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Проверка цвета самоката",
+    "uid" : "5569fe1f748f263b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1739102648740,
+      "stop" : 1739102649158,
+      "duration" : 418
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Получение списка заказов",
+    "uid" : "b450a55d7605218e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1739102649163,
+      "stop" : 1739102649848,
+      "duration" : 685
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Успешная авторизация курьера при вводе валидных логина и пароля",
+    "uid" : "f0cdec019fef5da1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1739102649854,
+      "stop" : 1739102650530,
+      "duration" : 676
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Ошибка авторизации курьера при вводе без поля логина",
+    "uid" : "1514e8a51e96fa1c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1739102650533,
+      "stop" : 1739102651253,
+      "duration" : 720
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Ошибка авторизации курьера при вводе НЕвалидного логина",
+    "uid" : "5d03f2dcdfcc3c74",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1739102651256,
+      "stop" : 1739102651926,
+      "duration" : 670
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Ошибка авторизации курьера при вводе без поля пароль",
+    "uid" : "37f71871867da56d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1739102651928,
+      "stop" : 1739102652915,
+      "duration" : 987
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Ошибка авторизации курьера при вводе НЕвалидного пароля",
+    "uid" : "25748810624c897b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1739102652925,
+      "stop" : 1739102653718,
+      "duration" : 793
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

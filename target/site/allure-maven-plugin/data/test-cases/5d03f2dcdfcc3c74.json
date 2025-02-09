@@ -1,0 +1,141 @@
+{
+  "uid" : "5d03f2dcdfcc3c74",
+  "name" : "Ошибка авторизации курьера при вводе НЕвалидного логина",
+  "fullName" : "LoginCourierTest.notValidLogin",
+  "historyId" : "305ff8d4809b9cd2628cde87a46379ec",
+  "time" : {
+    "start" : 1739102651256,
+    "stop" : 1739102651926,
+    "duration" : 670
+  },
+  "description" : "Тест проверяет, что авторизация НЕ происходит при вводе НЕвалидного поля login и валидного password",
+  "descriptionHtml" : "<p>Тест проверяет, что авторизация НЕ происходит при вводе НЕвалидного поля login и валидного password</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Тест проверяет, что авторизация НЕ происходит при вводе НЕвалидного поля login и валидного password",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание курьера",
+      "time" : {
+        "start" : 1739102651256,
+        "stop" : 1739102651400,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "courier",
+        "value" : "ru.praktikum.services.qa.scooter.model.Courier@37596b44"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизация курьера",
+      "time" : {
+        "start" : 1739102651400,
+        "stop" : 1739102651577,
+        "duration" : 177
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "credentials",
+        "value" : "ru.praktikum.services.qa.scooter.model.Credentials@d96f413"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизация курьера",
+      "time" : {
+        "start" : 1739102651590,
+        "stop" : 1739102651751,
+        "duration" : 161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "credentials",
+        "value" : "ru.praktikum.services.qa.scooter.model.Credentials@70199db0"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление курьера",
+      "time" : {
+        "start" : 1739102651752,
+        "stop" : 1739102651912,
+        "duration" : 160
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "id",
+        "value" : "469998"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "LoginCourierTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "notValidLogin"
+  }, {
+    "name" : "suite",
+    "value" : "LoginCourierTest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-9K741VKQF95"
+  }, {
+    "name" : "thread",
+    "value" : "14028@WIN-9K741VKQF95.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5d03f2dcdfcc3c74.json",
+  "parameterValues" : [ ]
+}

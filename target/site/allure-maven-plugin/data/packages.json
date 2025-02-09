@@ -1,0 +1,204 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "",
+    "children" : [ {
+      "name" : "withoutFirstName",
+      "uid" : "a239676f2423f61e",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102640771,
+        "stop" : 1739102645312,
+        "duration" : 4541
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "withoutLogin",
+      "uid" : "3fd786e436ef5e93",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102645373,
+        "stop" : 1739102645744,
+        "duration" : 371
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "withoutPassword",
+      "uid" : "bd718d0e7a4c03b7",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102645754,
+        "stop" : 1739102646065,
+        "duration" : 311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "allValidFields",
+      "uid" : "9a0f7170e0092049",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102646068,
+        "stop" : 1739102646666,
+        "duration" : 598
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "withExistingLogin",
+      "uid" : "2e35bffb0c75bec5",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "failed",
+      "time" : {
+        "start" : 1739102646669,
+        "stop" : 1739102647481,
+        "duration" : 812
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testFieldColor[Значение поля color: [BLACK]]",
+      "uid" : "9fe7632a4bdad443",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102647509,
+        "stop" : 1739102647930,
+        "duration" : 421
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testFieldColor[Значение поля color: [GREY]]",
+      "uid" : "85baf49b0577a4ed",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102647936,
+        "stop" : 1739102648318,
+        "duration" : 382
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testFieldColor[Значение поля color: [BLACK, GREY]]",
+      "uid" : "c2668084fc3bf367",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102648321,
+        "stop" : 1739102648736,
+        "duration" : 415
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testFieldColor[Значение поля color: []]",
+      "uid" : "5569fe1f748f263b",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102648740,
+        "stop" : 1739102649158,
+        "duration" : 418
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "getOrders",
+      "uid" : "b450a55d7605218e",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102649163,
+        "stop" : 1739102649848,
+        "duration" : 685
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "validFields",
+      "uid" : "f0cdec019fef5da1",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102649854,
+        "stop" : 1739102650530,
+        "duration" : 676
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "withoutLogin",
+      "uid" : "1514e8a51e96fa1c",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102650533,
+        "stop" : 1739102651253,
+        "duration" : 720
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "notValidLogin",
+      "uid" : "5d03f2dcdfcc3c74",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102651256,
+        "stop" : 1739102651926,
+        "duration" : 670
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "withoutPassword",
+      "uid" : "37f71871867da56d",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102651928,
+        "stop" : 1739102652915,
+        "duration" : 987
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "notValidPassword",
+      "uid" : "25748810624c897b",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739102652925,
+        "stop" : 1739102653718,
+        "duration" : 793
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "be5e18e41bf32fca5cace70290d883bb"
+  } ]
+}
