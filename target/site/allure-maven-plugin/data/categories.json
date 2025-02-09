@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "1 expectation failed.\nJSON path message doesn't match.\nExpected: Этот логин уже используется\n  Actual: Этот логин уже используется. Попробуйте другой.\n",
+      "children" : [ {
+        "name" : "Ошибка при создании двух одинаковых курьера",
+        "uid" : "2e35bffb0c75bec5",
+        "parentUid" : "8ad6d1bdeedeb752dfcbe973b49277e6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1739102646669,
+          "stop" : 1739102647481,
+          "duration" : 812
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8ad6d1bdeedeb752dfcbe973b49277e6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

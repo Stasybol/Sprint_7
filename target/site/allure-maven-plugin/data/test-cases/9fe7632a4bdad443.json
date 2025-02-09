@@ -1,0 +1,105 @@
+{
+  "uid" : "9fe7632a4bdad443",
+  "name" : "Проверка цвета самоката",
+  "fullName" : "CreateOrderTest.testFieldColor[Значение поля color: [BLACK]]",
+  "historyId" : "3ade401a7859b1aa7839729ccefdd9f3",
+  "time" : {
+    "start" : 1739102647509,
+    "stop" : 1739102647930,
+    "duration" : 421
+  },
+  "description" : "Тест проверяет, что заказ создается при разных значениях поля color",
+  "descriptionHtml" : "<p>Тест проверяет, что заказ создается при разных значениях поля color</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Тест проверяет, что заказ создается при разных значениях поля color",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание заказа",
+      "time" : {
+        "start" : 1739102647511,
+        "stop" : 1739102647710,
+        "duration" : 199
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "order",
+        "value" : "ru.praktikum.services.qa.scooter.model.Order@1c80f8dd"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Отмена заказа",
+      "time" : {
+        "start" : 1739102647740,
+        "stop" : 1739102647912,
+        "duration" : 172
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "track",
+        "value" : "189067"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateOrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testFieldColor[Значение поля color: [BLACK]]"
+  }, {
+    "name" : "suite",
+    "value" : "CreateOrderTest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-9K741VKQF95"
+  }, {
+    "name" : "thread",
+    "value" : "14028@WIN-9K741VKQF95.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9fe7632a4bdad443.json",
+  "parameterValues" : [ ]
+}
